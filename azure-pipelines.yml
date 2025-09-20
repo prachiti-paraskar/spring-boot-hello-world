@@ -71,5 +71,5 @@ stages:
             inputs:
               azureSubscription: $(azureSubscription)
               appType: webAppLinux
-              appName: $(webAppName)
+              appName: 'webcalculator-app'
               package: '$(Pipeline.Workspace)/drop/**/target/*.?(war|jar)'
